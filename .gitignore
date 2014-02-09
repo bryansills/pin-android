@@ -29,3 +29,6 @@ local.properties
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Project specific files
+api_keys.xml
