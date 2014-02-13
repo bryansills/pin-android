@@ -1,34 +1,34 @@
-# Built application files
-/*/build/
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+out/
+build/
+.gradle/
+
+# Project files
+*.iml
+.idea
+# .idea/workspace.xml
 
 # Local configuration file (sdk path, etc)
 local.properties
+keystore.properties
 
-# Gradle generated files
-.gradle/
-
-# User-specific configurations
-.idea/libraries/
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/.name
-.idea/compiler.xml
-.idea/copyright/profiles_settings.xml
-.idea/encodings.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/scopes/scope_settings.xml
-.idea/vcs.xml
-*.iml
-
-# OS-specific files
+# Windows thumbnail db
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+
+# Idea non-crucial project fileS
+*.iws
 
 # Project specific files
 api_keys.xml
