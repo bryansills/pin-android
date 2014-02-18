@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="action_bar_background">#D8E0AA0F</color>
-    <color name="drawer_background">#FFDDDDDD</color>
+    <color name="old_gold">#D8E0AA0F</color>
+    <color name="light_grey">#FFDDDDDD</color>
+    <color name="less_light_grey">#FFCCCCCC</color>
 </resources>
