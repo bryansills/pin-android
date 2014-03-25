@@ -6,4 +6,5 @@
     <string name="help">Help</string>
     <string name="profile_pic">Profile Picture</string>
     <string name="user_name">Default User</string>
+    <string name="friend_user_name">Default Friend</string>
 </resources>
