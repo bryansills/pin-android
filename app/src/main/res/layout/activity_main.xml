@@ -64,32 +64,36 @@
             android:orientation="vertical">
 
             <TextView
-                style="@style/DrawerActionText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
                 android:text="Action 1 Placeholder"/>
 
-            <View
-                style="@style/DrawerDivider"/>
-
             <TextView
-                style="@style/DrawerActionText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
                 android:text="Action 2 Placeholder"/>
 
-            <View
-                style="@style/DrawerDivider"/>
-
             <TextView
-                style="@style/DrawerActionText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
                 android:text="Action 3 Placeholder"/>
 
-            <View
-                style="@style/DrawerDivider"/>
-
             <TextView
-                style="@style/DrawerActionText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
                 android:text="Action 4 Placeholder"/>
 
-
         </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/friends_listview_title"
+            style="?android:listSeparatorTextViewStyle"/>
 
         <ListView
             android:id="@+id/friends_list"
